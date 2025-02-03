@@ -13,7 +13,7 @@ export const BannerCreate = () => {
   const [buttonLoading, setButtonLoading] = useState(false);
   const [singleImage, setSingleImage] = useState(null);
   const [showSingleImage, setShowSingleImage] = useState(null);
-  // uploadProgress 
+ 
   const handleSingleImageChange = (e) => {
     const file = e.target.files[0];
     if (file) {
